@@ -92,7 +92,7 @@ $ catkin_make
 1- In the widowx_arm_controller/config folder there's the file 58-widowx.rules.
  You have to copy it into the /etc/udev/rules.d folder.
 
- $ cd src/widowx_arm_controller/config
+ $ cd src/widowx_arm/widowx_arm_controller/config
  
  $ sudo cp 58-widowx.rules /etc/udev/rules.d
 
