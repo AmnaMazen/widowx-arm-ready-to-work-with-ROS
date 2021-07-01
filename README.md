@@ -29,16 +29,22 @@ $ ls /dev/tty*
  https://github.com/RobotnikAutomation/widowx_arm/blob/master/README.md
 
 1- Download Ardunio ide:
+
 $ wget https://downloads.arduino.cc/arduino-1.0.6-linux64.tgz
+
 and extract it in Downloads/ardunio-10.6
 
 2- Download the firmware archives
+
 $ wget https://github.com/trossenrobotics/arbotix/archive/master.zip
+
 Create a new folder inside "Documents" directory and call it "Ardunio"
 and extract files into "~/Documents/Ardunio"
 
 3- Run arduino from the folder you extracted it previously
+
 $ cd ~/Downloads/arduino-1.0.6
+
 $ ./arduino
 
 4- Once Arduino IDE is running, change the Sketchbook folder location to
