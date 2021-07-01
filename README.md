@@ -78,7 +78,7 @@ $ cd ..
 $ catkin_make
 
 
-# Step 4: clone package of widowx arm controller
+# Step 4: Clone package of widowx arm controller
 $ cd ~/widowx/src
 
 $ git clone https://github.com/RobotnikAutomation/widowx_arm.git
