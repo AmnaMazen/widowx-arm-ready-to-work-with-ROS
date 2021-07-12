@@ -10,15 +10,15 @@ https://www.youtube.com/watch?v=ZblFxjkI5nw&t=122s
 
 
 # Step 1: Check port number on which arm is connected
- Usually widowx Arm will be connecting to port ttyUSB0 or ttyACM0. To check port number:
+ Normally, widowx Arm will be connected to port ttyUSB0 or ttyACM0. To check the port number to which the arm is connected:
 
-connect  widowx Arm's USB to your computer and open new terminal
+* Connect  widowx Arm's USB to your computer and open new terminal
  
 $ ls /dev/tty*
 
 
 
-Disconnect the USB and run the command again to check that port number disappears
+* Disconnect the USB and run the command again to check that port number disappears
 
 $ ls /dev/tty*
 
@@ -113,14 +113,14 @@ $ sudo udevadm trigger
 # Step 6: Running the controller
 $ roslaunch widowx_arm_controller widowx_arm_controller.launch
 
-You will have this error
+* You will have this error
 "[Errno 2] No such file or directory: '/dev/ttyUSB_WIDOWX'"
 
- To fix this error: You need to modify "arm.yaml" file inside "widowx_arm_controller" package
+* To fix this error: You need to modify "arm.yaml" file inside "widowx_arm_controller" package
 
- replace "ttyUSB_WIDOWX" with "ttyUSB0"
+* replace "ttyUSB_WIDOWX" with "ttyUSB0"
 
- Then catkin_make to apply this change and run the controller again
+* Then catkin_make to apply this change and run the controller again
 
  $ cd ~/widowx
  
