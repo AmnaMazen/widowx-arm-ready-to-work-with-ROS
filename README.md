@@ -47,6 +47,12 @@ $ cd ~/Downloads/arduino-1.0.6
 
 $ ./arduino
 
+If you got an error that java not found, please type the following commands to install java
+
+$ sudo apt update
+
+$ sudo apt install default-jre
+
 4- Once Arduino IDE is running, change the Sketchbook folder location to
 ~/Documents/Arduino/arbotixmaster
 
