@@ -54,7 +54,7 @@ $ sudo apt update
 $ sudo apt install default-jre
 
 4- Once Arduino IDE is running, change the Sketchbook folder location to
-~/Documents/Arduino/arbotixmaster
+~/Documents/Arduino/arbotix-master
 
 File->Preferences->Sketchbook Location
 
